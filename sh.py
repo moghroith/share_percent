@@ -12,7 +12,7 @@ access_token = secrets["access_token"]
 session_uuid = secrets["session_uuid"]
 
 # Adjust this value to control the delay between API requests (in seconds)
-REQUEST_DELAY = 1.5
+REQUEST_DELAY = 2
 
 def get_followers(session, user_id: str, limit: int = 500) -> list:
     offset = 0
